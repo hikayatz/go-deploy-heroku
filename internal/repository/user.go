@@ -137,7 +137,6 @@ func (r *user) Edit(ctx context.Context, oldUser *model.User, updateData *dto.Up
 	if err := r.Db.
 		WithContext(ctx).
 		Save(oldUser).
-		Preload("Division").
 		Preload("Role").
 		Find(oldUser).
 		Error; err != nil {
