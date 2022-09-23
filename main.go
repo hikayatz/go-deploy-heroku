@@ -56,7 +56,7 @@ to use this flag:
 	} else if m == "status" {
 		migration.Status()
 	}
-
+	migration.Migrate()
 	if s == "all" {
 		seeder.NewSeeder().DeleteAll()
 		seeder.NewSeeder().SeedAll()
