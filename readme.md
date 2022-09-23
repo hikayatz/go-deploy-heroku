@@ -13,3 +13,30 @@ deployment  menggunakan metode [buildpack](https://devcenter.heroku.com/articles
 - terus centang `automatic deploy`
 - setelah itu kembali lagi ke tab `deploy` lalu klik `Deploy Branch`.
 - Selesai
+
+## Endpoint
+- API - https://alterra-agmc-day8.herokuapp.com
+- Repository - https://github.com/hikayatz/go-deploy-heroku
+
+## Screenshot
+- Register Sukses
+![Register Sukses](/image/register-success.png)
+
+- Login Sukses
+![Login Sukses](/image/login-success.png)
+
+- Login Gagal
+![Login Gagal](/image/login-invalid.png)
+
+- get Users Sukses
+![get Users Sukses](/image/get_users.png)
+
+- Get user by id
+![Get User by id Sukses](/image/get-id.png)
+
+- Update User Sukses
+![Update User Sukses](/image/update-user.png)
+
+
+- Delete User Sukses
+![Delete User Sukses](/image/delete.png)
