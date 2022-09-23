@@ -69,5 +69,5 @@ to use this flag:
 
 	http.NewHttp(e, f)
 
-	e.Logger.Fatal(e.Start(":" + os.Getenv("APP_PORT")))
+	e.Logger.Fatal(e.Start(":" + os.Getenv("PORT")))
 }
