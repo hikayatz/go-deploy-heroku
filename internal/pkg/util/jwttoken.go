@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v4"
-	"submission-5/internal/dto"
-	"submission-5/pkg/util"
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
+	"github.com/hikayatz/go-deploy-heroku/pkg/util"
 )
 
 var (

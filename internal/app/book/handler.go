@@ -1,15 +1,16 @@
 package book
 
 import (
-	"github.com/labstack/echo/v4"
 	"log"
 	"net/http"
-	"submission-5/internal/dto"
-	"submission-5/internal/factory"
-	"submission-5/internal/pkg/enum"
-	"submission-5/internal/pkg/util"
-	pkgdto "submission-5/pkg/dto"
-	res "submission-5/pkg/util/response"
+
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
+	"github.com/hikayatz/go-deploy-heroku/internal/factory"
+	"github.com/hikayatz/go-deploy-heroku/internal/pkg/enum"
+	"github.com/hikayatz/go-deploy-heroku/internal/pkg/util"
+	pkgdto "github.com/hikayatz/go-deploy-heroku/pkg/dto"
+	res "github.com/hikayatz/go-deploy-heroku/pkg/util/response"
+	"github.com/labstack/echo/v4"
 )
 
 type handler struct {

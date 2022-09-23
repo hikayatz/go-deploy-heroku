@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 
 	"github.com/go-playground/validator"
+	"github.com/hikayatz/go-deploy-heroku/pkg/util"
 	"github.com/labstack/echo/v4"
-	"submission-5/pkg/util"
 )
 
 type EchoMock struct {

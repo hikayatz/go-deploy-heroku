@@ -1,9 +1,9 @@
 package auth
 
 import (
-	"submission-5/internal/dto"
-	"submission-5/internal/factory"
-	res "submission-5/pkg/util/response"
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
+	"github.com/hikayatz/go-deploy-heroku/internal/factory"
+	res "github.com/hikayatz/go-deploy-heroku/pkg/util/response"
 
 	"github.com/labstack/echo/v4"
 )

@@ -3,8 +3,8 @@ package response
 import (
 	"net/http"
 
+	"github.com/hikayatz/go-deploy-heroku/pkg/dto"
 	"github.com/labstack/echo/v4"
-	"submission-5/pkg/dto"
 )
 
 type successConstant struct {

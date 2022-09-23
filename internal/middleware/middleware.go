@@ -1,9 +1,9 @@
 package middleware
 
 import (
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"submission-5/internal/dto"
 )
 
 func LogMiddlewares(e *echo.Echo) {

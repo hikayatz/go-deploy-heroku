@@ -8,14 +8,14 @@ import (
 	"strconv"
 	"testing"
 
-	"submission-5/database"
-	"submission-5/database/seeder"
-	"submission-5/internal/dto"
-	"submission-5/internal/factory"
-	"submission-5/internal/mocks"
-	"submission-5/internal/pkg/enum"
-	"submission-5/internal/pkg/util"
-	"submission-5/internal/repository"
+	"github.com/hikayatz/go-deploy-heroku/database"
+	"github.com/hikayatz/go-deploy-heroku/database/seeder"
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
+	"github.com/hikayatz/go-deploy-heroku/internal/factory"
+	"github.com/hikayatz/go-deploy-heroku/internal/mocks"
+	"github.com/hikayatz/go-deploy-heroku/internal/pkg/enum"
+	"github.com/hikayatz/go-deploy-heroku/internal/pkg/util"
+	"github.com/hikayatz/go-deploy-heroku/internal/repository"
 
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"
@@ -29,7 +29,6 @@ var (
 	roleHandler       = NewHandler(&f)
 	testAdminRoleID   = uint(enum.Admin)
 	testCreatePayload = dto.CreateRoleRequestBody{Name: &testRoleName}
-	testDivisionID    = uint(enum.Finance)
 	testEmail         = "vincentlhubbard@gmail.com"
 	testEmployeeID    = uint(1)
 	testRoleName      = "Admin"

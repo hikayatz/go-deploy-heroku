@@ -4,13 +4,13 @@ import (
 	"context"
 	"errors"
 
-	"submission-5/internal/dto"
-	"submission-5/internal/factory"
-	"submission-5/internal/pkg/util"
-	"submission-5/internal/repository"
-	"submission-5/pkg/constant"
-	pkgutil "submission-5/pkg/util"
-	res "submission-5/pkg/util/response"
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
+	"github.com/hikayatz/go-deploy-heroku/internal/factory"
+	"github.com/hikayatz/go-deploy-heroku/internal/pkg/util"
+	"github.com/hikayatz/go-deploy-heroku/internal/repository"
+	"github.com/hikayatz/go-deploy-heroku/pkg/constant"
+	pkgutil "github.com/hikayatz/go-deploy-heroku/pkg/util"
+	res "github.com/hikayatz/go-deploy-heroku/pkg/util/response"
 )
 
 type service struct {

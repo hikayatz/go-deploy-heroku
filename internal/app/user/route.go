@@ -1,10 +1,10 @@
 package user
 
 import (
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
+	"github.com/hikayatz/go-deploy-heroku/internal/middleware"
+	"github.com/hikayatz/go-deploy-heroku/internal/pkg/util"
 	"github.com/labstack/echo/v4"
-	"submission-5/internal/dto"
-	"submission-5/internal/middleware"
-	"submission-5/internal/pkg/util"
 )
 
 func (h *handler) Route(g *echo.Group) {

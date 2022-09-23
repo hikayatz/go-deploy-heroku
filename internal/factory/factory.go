@@ -1,8 +1,8 @@
 package factory
 
 import (
-	"submission-5/database"
-	"submission-5/internal/repository"
+	"github.com/hikayatz/go-deploy-heroku/database"
+	"github.com/hikayatz/go-deploy-heroku/internal/repository"
 )
 
 type Factory struct {

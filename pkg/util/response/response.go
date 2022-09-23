@@ -1,7 +1,7 @@
 package response
 
 import (
-	"submission-5/pkg/dto"
+	"github.com/hikayatz/go-deploy-heroku/pkg/dto"
 )
 
 type Meta struct {

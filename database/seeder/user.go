@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"submission-5/internal/model"
+	"github.com/hikayatz/go-deploy-heroku/internal/model"
 
 	"gorm.io/gorm"
 )

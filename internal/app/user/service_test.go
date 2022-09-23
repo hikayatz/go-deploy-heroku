@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
+	"github.com/hikayatz/go-deploy-heroku/database"
+	"github.com/hikayatz/go-deploy-heroku/database/seeder"
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
+	"github.com/hikayatz/go-deploy-heroku/internal/factory"
+	"github.com/hikayatz/go-deploy-heroku/internal/pkg/enum"
+	pkgdto "github.com/hikayatz/go-deploy-heroku/pkg/dto"
 	"github.com/stretchr/testify/assert"
-	"submission-5/database"
-	"submission-5/database/seeder"
-	"submission-5/internal/dto"
-	"submission-5/internal/factory"
-	"submission-5/internal/pkg/enum"
-	pkgdto "submission-5/pkg/dto"
 )
 
 var (

@@ -1,12 +1,12 @@
-module submission-5
+module github.com/hikayatz/go-deploy-heroku
 
+// +heroku goVersion go1.18
 go 1.18
 
 require (
 	github.com/go-ozzo/ozzo-validation v3.6.0+incompatible
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/crypto v0.0.0-20220919173607-35f4265a4bc0
-	gorm.io/driver/mysql v1.3.4
 	gorm.io/gorm v1.23.7
 )
 
@@ -41,7 +41,6 @@ require (
 
 require (
 	github.com/go-playground/validator v9.31.0+incompatible
-	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/golang-jwt/jwt/v4 v4.4.2
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.4 // indirect

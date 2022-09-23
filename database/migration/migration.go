@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strings"
 
-	"submission-5/database"
-	"submission-5/internal/model"
+	"github.com/hikayatz/go-deploy-heroku/database"
+	"github.com/hikayatz/go-deploy-heroku/internal/model"
 )
 
 // please add new model in next index for consistency migrate and rollback

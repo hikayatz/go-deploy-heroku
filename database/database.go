@@ -3,8 +3,8 @@ package database
 import (
 	"sync"
 
+	"github.com/hikayatz/go-deploy-heroku/pkg/util"
 	"gorm.io/gorm"
-	"submission-5/pkg/util"
 )
 
 var (

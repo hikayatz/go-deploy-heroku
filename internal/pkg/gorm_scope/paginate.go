@@ -1,8 +1,8 @@
 package gorm_scope
 
 import (
+	"github.com/hikayatz/go-deploy-heroku/pkg/dto"
 	"gorm.io/gorm"
-	"submission-5/pkg/dto"
 )
 
 func Paginate(p dto.Pagination) func(db *gorm.DB) *gorm.DB {

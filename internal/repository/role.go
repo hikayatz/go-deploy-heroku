@@ -4,10 +4,10 @@ import (
 	"context"
 	"strings"
 
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
+	"github.com/hikayatz/go-deploy-heroku/internal/model"
+	pkgdto "github.com/hikayatz/go-deploy-heroku/pkg/dto"
 	"gorm.io/gorm"
-	"submission-5/internal/dto"
-	"submission-5/internal/model"
-	pkgdto "submission-5/pkg/dto"
 )
 
 type Role interface {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"strings"
 
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
+	"github.com/hikayatz/go-deploy-heroku/internal/model"
+	pkgdto "github.com/hikayatz/go-deploy-heroku/pkg/dto"
+	"github.com/hikayatz/go-deploy-heroku/pkg/util"
 	"gorm.io/gorm"
-	"submission-5/internal/dto"
-	"submission-5/internal/model"
-	pkgdto "submission-5/pkg/dto"
-	"submission-5/pkg/util"
 )
 
 type User interface {

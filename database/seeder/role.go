@@ -4,9 +4,9 @@ import (
 	"log"
 	"time"
 
+	"github.com/hikayatz/go-deploy-heroku/internal/model"
+	"github.com/hikayatz/go-deploy-heroku/internal/pkg/enum"
 	"gorm.io/gorm"
-	"submission-5/internal/model"
-	"submission-5/internal/pkg/enum"
 )
 
 func roleSeeder(db *gorm.DB) {

@@ -1,8 +1,8 @@
 package seeder
 
 import (
+	"github.com/hikayatz/go-deploy-heroku/database"
 	"gorm.io/gorm"
-	"submission-5/database"
 )
 
 type seed struct {

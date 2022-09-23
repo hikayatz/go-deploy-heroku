@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"submission-5/database"
-	"submission-5/database/seeder"
-	"submission-5/internal/dto"
-	"submission-5/internal/factory"
+	"github.com/hikayatz/go-deploy-heroku/database"
+	"github.com/hikayatz/go-deploy-heroku/database/seeder"
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
+	"github.com/hikayatz/go-deploy-heroku/internal/factory"
 
 	"github.com/stretchr/testify/assert"
 )

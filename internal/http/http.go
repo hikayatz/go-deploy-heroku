@@ -2,13 +2,13 @@ package http
 
 import (
 	"github.com/go-playground/validator"
+	"github.com/hikayatz/go-deploy-heroku/internal/app/auth"
+	"github.com/hikayatz/go-deploy-heroku/internal/app/book"
+	"github.com/hikayatz/go-deploy-heroku/internal/app/role"
+	"github.com/hikayatz/go-deploy-heroku/internal/app/user"
+	"github.com/hikayatz/go-deploy-heroku/internal/factory"
+	"github.com/hikayatz/go-deploy-heroku/pkg/util"
 	"github.com/labstack/echo/v4"
-	"submission-5/internal/app/auth"
-	"submission-5/internal/app/book"
-	"submission-5/internal/app/role"
-	"submission-5/internal/app/user"
-	"submission-5/internal/factory"
-	"submission-5/pkg/util"
 )
 
 func NewHttp(e *echo.Echo, f *factory.Factory) {

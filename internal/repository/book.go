@@ -2,11 +2,12 @@ package repository
 
 import (
 	"context"
-	"gorm.io/gorm"
 	"strings"
-	"submission-5/internal/dto"
-	"submission-5/internal/model"
-	pkgdto "submission-5/pkg/dto"
+
+	"github.com/hikayatz/go-deploy-heroku/internal/dto"
+	"github.com/hikayatz/go-deploy-heroku/internal/model"
+	pkgdto "github.com/hikayatz/go-deploy-heroku/pkg/dto"
+	"gorm.io/gorm"
 )
 
 type Book interface {

@@ -1,6 +1,6 @@
 package dto
 
-import "submission-5/pkg/dto"
+import "github.com/hikayatz/go-deploy-heroku/pkg/dto"
 
 type (
 	SearchGetBookRequest struct {
