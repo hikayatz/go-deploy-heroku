@@ -1,0 +1,11 @@
+build:
+  docker:
+    web: docker/go/Dockerfile
+  config:
+    DB_HOST: $DB_HOST
+    DB_NAME: $DB_NAME
+    DB_PASS: $DB_PASS
+    DB_USER: $DB_USER
+    DB_PORT: $DB_PORT
+run:
+  web: bundle exec puma -C config/puma.rb
