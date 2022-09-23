@@ -59,7 +59,7 @@ func (r *user) FindByID(ctx context.Context, id uint, usePreload bool) (model.Us
 	var user model.User
 	q := r.Db.WithContext(ctx).Model(&model.User{}).Where("id = ?", id)
 	if usePreload {
-		q = q.Preload("Division").Preload("Role")
+		q = q.Preload("Role")
 	}
 	err := q.First(&user).Error
 	return user, err
