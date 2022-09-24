@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"log"
 	"os"
 
@@ -68,6 +69,6 @@ to use this flag:
 	middleware.LogMiddlewares(e)
 
 	http.NewHttp(e, f)
-
+	fmt.Println("PORT => ", os.Getenv("PORT"))
 	e.Logger.Fatal(e.Start(":" + os.Getenv("PORT")))
 }
